@@ -2,11 +2,11 @@
 # handlers file for cadvisor
 
 - name: reload systemd
-  become: yes
+  become: true
   command: systemctl daemon-reload
 
 - name: restart cadvisor
-  become: yes
+  become: true
   service:
     name: cadvisor
     state: restarted
