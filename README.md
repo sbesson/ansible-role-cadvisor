@@ -1,6 +1,10 @@
 cAdvisor
 ========
 
+[![Build Status](https://travis-ci.org/openmicroscopy/ansible-role-cadvisor.svg)](https://travis-ci.org/openmicroscopy/ansible-role-cadvisor)
+[![Ansible Role](https://img.shields.io/ansible/role/17626.svg)](https://galaxy.ansible.com/openmicroscopy/cadvisor/)
+
+
 cAdvisor container monitoring.
 
 cAdvisor can be run in a [Docker container](https://github.com/google/cadvisor), however on RHEL/CentOS it requires [additional flags](https://github.com/google/cadvisor/blob/master/docs/running.md).
