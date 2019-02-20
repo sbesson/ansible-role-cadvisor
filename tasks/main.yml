@@ -33,7 +33,6 @@
     dest: /etc/systemd/system/cadvisor.service
     src: systemd-system-cadvisor-service.j2
   notify:
-    - reload systemd
     - restart cadvisor
 
 # Flush handlers to ensure systemd is reloaded
