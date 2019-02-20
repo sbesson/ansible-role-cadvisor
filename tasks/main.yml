@@ -41,7 +41,6 @@
 
 - name: cadvisor | enable and start server systemd
   become: true
-  service:
-    enabled: true
+  systemd:
     name: cadvisor.service
     state: started
